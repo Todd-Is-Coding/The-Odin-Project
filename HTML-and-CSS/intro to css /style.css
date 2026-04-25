@@ -1,0 +1,63 @@
+/* styles.css */
+
+div {
+  color: white;
+}
+
+/* styles.css */
+
+.alert-text {
+  color: red;
+}
+
+/* styles.css */
+
+#title {
+  background-color: red;
+}
+
+/* grouping selector */
+
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+/* 
+.read {
+  
+}
+
+.unread {
+} 
+
+*/
+
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
+
+/* styles.css */
+
+.ancestor .contents {
+  color: blue;
+}
+
+p {
+  /* hex example: */
+  color: #1100ff;
+}
+
+p {
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+}
+
+p {
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
